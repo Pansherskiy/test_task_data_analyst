@@ -2,10 +2,15 @@
 The task is to analyze the data contained in the "data.csv" file, which contains information obtained from SendGrid about sent emails.
 
 ## Solution
-To solve this task, we used the Python programming language with the Pandas library. The data from the file was parsed, and calculations were performed on the required parameters. The code for the solution is in the `solution1.py` file.
+To solve this task, we used the Python programming language with the `Pandas` library. The data from the file was analyzed and calculations were made according to the required parameters, after which they were visualized using the `tabulate` library. The solution code is in the `solution1.py` file. 
 
 As a result of the solution, we obtain the following table:
-![Image](https://github.com/Pansherskiy/test_task_data_analyst/blob/main/result_solution1.png)
+![Result table](result_solution1.png)
+
+During the analysis, it was found that for some letters the calculation of the uniqueness of the event does not work correctly, which can probably be a bug.
+![Bug](bugs/opens_bug1.png)
+![Bug](bugs/opens_bug2.png)
+
 
 # Task 2: SQL queries
 The task is to write the following SQL queries:
